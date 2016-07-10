@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import { RouteParams } from '@angular/router-deprecated';
+//import { RouteParams } from '@angular/router-deprecated';
 
 @Component({
 	selector: 'route2',
@@ -11,12 +11,12 @@ import { RouteParams } from '@angular/router-deprecated';
 })
 
 export class Route2Component {
-	_id: string;
+/*	_id: string;
 
 	constructor(
 		private _routeParams: RouteParams	) {
 		this._id = this._routeParams.get('id');
 
 		}
-
+*/
 }
