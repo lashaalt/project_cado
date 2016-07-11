@@ -1,22 +1,29 @@
 import {Component, OnInit} from '@angular/core';
-//import { RouteParams } from '@angular/router-deprecated';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
 	selector: 'route2',
 	template: `
 	<h1>Route 2 </h1>
-	<div>ID in URL: {{_id}}</div>
+	<div>ID in URL: {{id}}</div>
 	`,
 
 })
 
 export class Route2Component {
-/*	_id: string;
+	id: any;
+	private sub: any;
 
 	constructor(
-		private _routeParams: RouteParams	) {
-		this._id = this._routeParams.get('id');
+		private _route: ActivatedRoute,
+		private _router: Router)
+		{}
 
+		ngOnInit() {
+			this.sub = this._route.params.subscribe(params => this.id = params['id'] );
 		}
-*/
+
+		ngOnDestroy() {
+			this.sub.unsubscribe();
+		}
 }

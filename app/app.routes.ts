@@ -3,8 +3,11 @@ import { Route1Component } from './route1.component';
 import { Route2Component } from './route2.component';
 
 export const routes: RouterConfig = [
+
   { path: 'route1', component: Route1Component },
   { path: 'route2/:id', component: Route2Component }
+  //{ path: '/abc', component: Route1Component }
+
 ];
 
 export const APP_ROUTER_PROVIDERS = [

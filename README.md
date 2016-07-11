@@ -1,2 +1,2 @@
 # Project Cado
-Testing Angular 2 for app framework
+Testing Angular 2 router for app framework
