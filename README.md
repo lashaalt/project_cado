@@ -1,5 +1,4 @@
-##### Cado
-Testing Angular 2 router for app framework.
+##### Cado - Testing Angular2 router API
 
 To download use below commands
 ```bash
