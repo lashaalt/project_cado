@@ -8,5 +8,6 @@ cd project_cado
 npm i
 npm start
 ```
-Goto [localhost:3000](http://localhost:3000) for app test
-Goto [localhost:3001](http://localhost:3001) for app control and debugging
+Goto [localhost:3000](http://localhost:3000) for app test. 
+
+Goto [localhost:3001](http://localhost:3001) for app control and debugging.
